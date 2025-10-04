@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+@font-face{
+    font-family: Interbold;
+    src: url("../src/assets/fonts/Inter_18pt-Bold.ttf")
+}
+
+@font-face{
+    font-family: InterRegular;
+    src: url("../src/assets/fonts/Inter_18pt-Regular.ttf")
+}
+
+@font-face{
+    font-family: InterSemibold;
+    src: url("../src/assets/fonts/Inter_18pt-SemiBold.ttf")
+}
+
+@theme{
+    --font-interbold : Interbold;
+    --font-interregular :  InterRegular;
+    --font-intersemibold :  InterSemibold;
+    /* Gray */
+    --color-primary: #2f3639; 
+    /* dark Gray */
+    --color-secondary: #050505;
+    /* white  */
+    --color-tertiary: #fdfcfc;
+
+}
