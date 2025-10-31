@@ -1,38 +1,50 @@
 @import "tailwindcss";
 
 
-@font-face{
+@font-face {
     font-family: Interbold;
     src: url("../src/assets/fonts/Inter_18pt-Bold.ttf")
 }
 
-@font-face{
+@font-face {
     font-family: InterRegular;
     src: url("../src/assets/fonts/Inter_18pt-Regular.ttf")
 }
 
-@font-face{
+@font-face {
     font-family: InterSemibold;
     src: url("../src/assets/fonts/Inter_18pt-SemiBold.ttf")
 }
 
-@theme{
-    --font-interbold : Interbold;
-    --font-interregular :  InterRegular;
-    --font-intersemibold :  InterSemibold;
-    /* Gray */
-    --color-primary: #2f3639; 
-    /* dark Gray */
+@theme {
+    --font-interbold: Interbold;
+    --font-interregular: InterRegular;
+    --font-intersemibold: InterSemibold;
+    /* Gray blacktype */
+    --color-primary: #2f3639;
+    /* dark Gray blacktype*/
     --color-secondary: #050505;
-    /* white  */
-    --color-tertiary: #fdfcfc;
-      --screen-xs: 480px;
-      --screen-sm: 640px;
-      --screen-md: 768px;
-      --screen-lg: 1024px;
-      --screen-xl: 1280px;
-      --screen-2xl: 1536px;
-      --screen-my-custom-breakpoint: 900px;
-   
+    /* White */
+    /* Primary dark */
+    --color-primary-dark: #966F2E;
+    --color-primary-temp: #D5B66B;
+
+    /* For buttons  Gradients*/
+    --background-gradient-btn:  linear-gradient(90deg,rgba(180, 139, 92, 1) 0%, rgba(224, 194, 157, 1) 50%, rgba(212, 144, 28, 1) 100%);
+
+    /* Gradients */
+
+    --background-gradient: linear-gradient(90deg, rgba(255, 198, 66, 1) 0%, rgba(163, 127, 44, 1) 50%, rgba(150, 111, 46, 1) 100%) --color-tertiary: #fdfcfc;
+    /* Breakpoints */
+    --breakpoint-xss: 200px;
+    --breakpoint-xs: 300px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    /* --breakpoint-2xl: 1536px;
+    --breakpoint-1xl: 900px; */
+
+
+
 
 }
